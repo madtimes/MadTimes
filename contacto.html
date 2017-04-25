@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" href="./img/favicon.ico">
+	<title>Contacto - MadTimes</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+	<link href="./css/carousel.css" rel="stylesheet">
+    <link href="./css/videos.css" rel="stylesheet">
+	<link href="./css/estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- <link href="./css/estilo.css" rel="stylesheet"> -->
+  </head>
+  <body>
+
+	<header>
+		<section class="wrapper">
+			<nav>
+				<ul>
+					<li>
+						<a href="./index.html"><img class="logo" src="./img/FaviconTrasp.ico" alt="Favicon de MadTimes" title="Favicon de MadTimes"></a>
+					</li>
+					<li id="menu"><a href="#">Menu</a>
+						<ul>
+							<li>
+								<div class="col-md-10">
+									<div class="row">
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/D-gotico.jpg" alt="Letra D" width="50" height="50">
+													<h4>Deportes</h4>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/E-gotico.png" alt="Letra E" width="50" height="50">
+													<h4>Educación</h4>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/C-gotico.png" alt="Letra C" width="50" height="50">
+													<h4>Cultura</h4>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/T_gotico.jpg" alt="Letra T" width="50" height="50">
+													<h4>Tecnología</h4>
+												</div>
+											</a>
+										</li>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<div class="col-md-8">
+									<div class="row">
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/E-gotico.png" alt="Letra E" width="50" height="50">
+													<h4>España</h4>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/S_gotico.jpg" alt="Letra S" width="50" height="50">
+													<h4>Sociedad</h4>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/P_gotico.jpg" alt="Letra P" width="50" height="50">
+													<h4>Política</h4>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/E-gotico.png" alt="Letra E" width="50" height="50">
+													<h4>Economía</h4>
+												</div>
+											</a>
+										</li>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="btn-link">
+						<a href="./inicioSesion_Registro.html"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a>
+					</li>
+					<li class="btn-link">
+						<a href="./inicioSesion_Registro.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+
+	<div class="contactacaja">
+		<h1>Contacta con nosotros por e-mail</h1>
+		<form action="MAILTO:@ucm.es" method="post" enctype="text/plain">
+				Nombre:	<input type="text" name="name" value="tu nombre completo"><br>
+				E-mail: <input type="text" name="mail" value="tu dirección de correo"><br>
+				Motivo: <input type="radio" name="motivo" value="evaluacion"checked="checked"/> Evaluación
+				<input type="radio" name="motivo" value="sugerencias" /> Sugerencias
+				<input type="radio" name="motivo" value="criticas" /> Críticas
+				<br><br>
+				<input name="verificar" type="checkbox" value="on"/> Marque esta casilla para verificar que ha leído nuestros términos y condiciones del servicio
+				<br><br>
+				<textarea id="txtArea" rows="10" cols="70"></textarea>
+				<br><br>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Borrar">
+		</form>
+	</div>
+
+	<footer><!--Aqui empieza el footer con el mes y el año y el nombre del periodico, seguido de un separador y unos botones que dan acceso
+ a las paginas de interes referentes a la pagina-->
+		<div class="foot">
+			<div class="mad">
+				<p>Abril 2017 MadTimes-Noticias Todos los derechos reservados.</p>
+			</div>
+			<hr style="width:75%; border-color:black; ">
+			<div class="mad">
+				<a href="contacto.html">Términos y condiciones de uso</a>
+				<a href="detalles.html">Política de privacidad</a>
+				<a href="bocetos.html">Política de cookies</a>
+				<a href="contacto.html">Contacto</a>
+				<a href="#">Ayuda</a>
+				<a href="miembros.html">Nuestro equipo</a>
+			</div>
+		</div>
+	</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+	</body>
+</html>
